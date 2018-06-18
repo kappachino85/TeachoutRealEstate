@@ -1,0 +1,107 @@
+﻿#logo_wrapper {
+    background-image: url('http://wp.nootheme.com/citilights/wp-content/uploads/2014/09/Beautiful-Houses-Week-31-44-Belvedere-House-in-Canada_03-@-GenCept.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 760px;
+    padding: 78px;
+}
+
+.logo_container {
+    background: rgba(0, 0, 0, 0.15);
+    padding-bottom: 18px;
+    margin: 0 145px;
+}
+
+.navbar {
+    border-color: transparent;
+    background: rgba(0, 0, 0, 0.66);
+    padding: 5px;
+    
+}
+
+.navbar li a {
+    color: #ddb06c !important;
+    cursor: pointer !important;
+    margin: 0 18px;
+    display: inline-block;
+    font-size: 12px !important;
+}
+
+element.style {
+    font-size: 14px !important;
+}
+
+.navbar-nav li a:hover {
+    background-color: black !important;
+    background: rgba(0, 0, 0, 0.5) !important;
+}
+
+.dropdown-menu .sub-menu {
+    position: absolute;
+    top: 100px;
+    visibility: hidden;
+    margin-top: -1px;
+    color: #ddb06c !important;
+}
+
+.dropdown-menu {
+    background-color: black !important;
+    background: rgba(0, 0, 0, 0.5) !important;
+    left: -42px !important;
+    text-align: center;
+    padding: 0 -50px !important;
+}
+
+#logo {
+    font-family: 'Playfair Display', serif;
+    font-size: 100px;
+    color: #ddb06c;
+    text-align: center;
+    margin-top: 186px;
+    margin-bottom: auto;
+    text-shadow: -2px 2px 2px #000;
+}
+
+#logo_bottom {
+    color: #fff;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+    text-shadow: -2px 2px 2px #000;
+    margin: 15px auto;
+}
+
+.letterT {
+    font-size: 127px;
+    text-shadow: -2px 2px 2px #000;
+}
+
+hr#logo_underline {
+    border: none;
+    height: 4px;
+    background-color: #ddb06c;
+    text-align: center;
+    margin: 0 auto;
+    width: 70%;
+}
+
+#intro_wrapper {
+    height: 800px;
+    margin-top: 20px;
+}
+
+.spacer {
+    margin: 0 17px;
+}
+
+@media (min-width:768px) and (max-width: 991px) {
+    #logo {
+        margin-top: 10px;
+        font-size: 80px;
+    }
+
+    .letterT {
+        font-size: 100px;
+    }
+}
