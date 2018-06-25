@@ -111,10 +111,16 @@ h4 {
     .letterT {
         font-size: 100px;
     }
+
+
 }
 
 @media (min-width:1200px) and (max-width: 1366px){
     .navbar li a {
         font-size: 18px !important;
+    }
+
+    #logo_wrapper {
+        height: 800px !important;
     }
 }
