@@ -1,21 +1,25 @@
-﻿#logo_wrapper {
+﻿body {
+    background-color: black;
+}
+
+#logo_wrapper {
     background-image: url('http://wp.nootheme.com/citilights/wp-content/uploads/2014/09/Beautiful-Houses-Week-31-44-Belvedere-House-in-Canada_03-@-GenCept.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    height: 760px;
+    height: 670px;
     padding: 78px;
 }
 
 .logo_container {
-    background: rgba(0, 0, 0, 0.15);
+    background: rgba(0, 0, 0, 0.45);
     padding-bottom: 18px;
-    margin: 0 145px;
+    margin: 0 130px;
 }
 
 .navbar {
     border-color: transparent;
-    background: rgba(0, 0, 0, 0.66);
+    background: rgba(0, 0, 0, 0.76);
     padding: 5px;
     
 }
@@ -26,10 +30,6 @@
     margin: 0 18px;
     display: inline-block;
     font-size: 12px !important;
-}
-
-element.style {
-    font-size: 14px !important;
 }
 
 .navbar-nav li a:hover {
@@ -58,7 +58,7 @@ element.style {
     font-size: 100px;
     color: #ddb06c;
     text-align: center;
-    margin-top: 186px;
+    margin-top: 150px;
     margin-bottom: auto;
     text-shadow: -2px 2px 2px #000;
 }
@@ -68,7 +68,7 @@ element.style {
     text-align: center;
     font-family: 'Playfair Display', serif;
     font-size: 40px;
-    text-shadow: -2px 2px 2px #000;
+    text-shadow: -3px 3px 3px #000;
     margin: 15px auto;
 }
 
@@ -89,6 +89,13 @@ hr#logo_underline {
 #intro_wrapper {
     height: 800px;
     margin-top: 20px;
+    background-color: black;
+    color: white;
+}
+
+h4 {
+    font-size: 22px;
+    font-family: Constantia;
 }
 
 .spacer {
@@ -103,5 +110,11 @@ hr#logo_underline {
 
     .letterT {
         font-size: 100px;
+    }
+}
+
+@media (min-width:1200px) and (max-width: 1366px){
+    .navbar li a {
+        font-size: 18px !important;
     }
 }
