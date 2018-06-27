@@ -60,17 +60,16 @@
     <div class="content_wrapper">
         @RenderBody()
     </div>
-
-    <script src="../../Scripts/jquery-1.10.2.min.js"></script>
+    <script src="~/Scripts/jquery-3.3.1.min.js"></script>
     <script src="../../Scripts/bootstrap.min.js"></script>
     <script src="../../Scripts/angular.min.js"></script>
     <script src="../../Scripts/site/app.js"></script>
 
     <script>
         $('ul.nav li.dropdown').hover(function () {
-            $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeIn(500);
+            $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeIn(275);
         }, function () {
-            $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeOut(500);
+            $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeOut(275);
         });
     </script>
 </body>
