@@ -21,7 +21,7 @@
 .navbar {
     border-color: transparent;
     background: rgba(0, 0, 0, 0.76);
-    padding: 5px;
+    /*padding: 5px;*/
     
 }
 
@@ -47,7 +47,7 @@
 
 .dropdown-menu {
     background-color: black !important;
-    background: rgba(0, 0, 0, 0.5) !important;
+    background: rgba(0, 0, 0, 0.76) !important;
     left: -42px !important;
     text-align: center;
     padding: 10px -50px !important;
@@ -133,6 +133,16 @@ h4 {
     }
 
     #intro_wrapper {
-        height: 350px;
+        height: 333px;
+    }
+
+    .logo_container {
+        background: rgba(0, 0, 0, 0.45);
+        padding-bottom: 18px;
+        margin: 0 250px !important;
+    }
+
+    hr#logo_underline {
+        width: 60%;
     }
 }
